@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(rentrez)
-library(rColorBrewer)
+library(RColorBrewer)
 
 df <- data.frame(Year = integer(), N = integer(), Type = character())
 field <- "[title/abstract]"
